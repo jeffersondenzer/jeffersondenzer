@@ -76,7 +76,7 @@ enviar.grid(column=1, row=8, padx=10, pady=10)
 poutput1 = iniciar()
 
 
-personagem1 = pyscreeze.locateCenterOnScreen(iniciar, confidence= 0.8, minSearchTime=50)
+personagem1 = pyscreeze.locateCenterOnScreen(poutput1png, confidence= 0.8, minSearchTime=50)
 pyautogui.moveTo(personagem1, duration = 1)
 pyautogui.click()
 
